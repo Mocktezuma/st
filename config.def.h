@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "MesloLGS NF:pixelsize=14:antialias=true:autohint=true";
+static char *font = "MesloLGS NF:pixelsize=17:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Noto Sans Mono:pixelsize=14:antialias=true:autohint=true"
@@ -13,7 +13,7 @@ static char *font2[] = {
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 
-static int borderpx = 2;
+static int borderpx = 6;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -143,8 +143,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 258;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultcs = 257;
+static unsigned int defaultrcs = 256;
 
 /*
  * Xresources preferences to load at startup
