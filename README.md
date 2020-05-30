@@ -11,3 +11,5 @@ Mocktezuma's fork of st
 * scrollback
 * scrollback-mouse
 * Xresources
+* vertcenter
+* anysize
